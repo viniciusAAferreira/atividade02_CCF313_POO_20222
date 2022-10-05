@@ -80,14 +80,14 @@ public class exercicio {
                     System.out.println("Desconto IRRF: " + funcionarios.get(num1).descontoIR());
                     System.out.println("Salário líquido: " + funcionarios.get(num1).salarioLiquido(horas1));
                     break;
-                    
+
                 case 8:
                     
                     System.out.println("Digite o numero do funcionario a alterar os dados:");
                     int j = entrada.nextInt();
                     System.out.println("Digite o novo tipo de contrato do funcionario:");
                     funcionarios.get(j).setTipoContrato(entrada.next().charAt(0));
-                    System.out.println("Digite o novo numero de dependentes do funcionario:");
+                    System.out.println("Digite o novo numero de filhos menos de idade do funcionario:");
                     funcionarios.get(j).setNumFilhosMenores(entrada.nextInt());
                     System.out.println("Digite o novo salário do funcionário:");
                     funcionarios.get(j).setSalario(entrada.nextDouble());

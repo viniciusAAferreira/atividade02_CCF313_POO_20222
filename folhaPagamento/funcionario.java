@@ -54,6 +54,7 @@ public class funcionario {
         System.out.println("Salário: " + salario);
         System.out.println("Número de Filhos Menores: " + numFilhosMenores);
         System.out.println("Data de Admissão: " + dataAdmissao);
+        System.out.println("\n");
     }
     public String getNome(){
         return nome;
